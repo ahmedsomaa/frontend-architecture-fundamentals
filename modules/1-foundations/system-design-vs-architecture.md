@@ -23,7 +23,7 @@ While the terms "architecture" and "design" are often used interchangeably, ther
 
 ## Decision Analysis Framework
 
-To determine where a decision falls on the spectrum, consider:
+We can vizualize the architecture & design as a sepcturm. To determine where a decision falls on this spectrum, consider:
 
 ### 1. Change Difficulty
 
