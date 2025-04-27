@@ -114,13 +114,6 @@
    - Cannot optimize all characteristics simultaneously
    - Must prioritize based on system requirements
 
-## Questions for Further Study
-
-1. How do architectural decisions differ between frontend and backend systems?
-2. What are the trade-offs between different architectural styles?
-3. How can we effectively document architectural decisions?
-4. What metrics can we use to measure architectural characteristics?
-
 ## References
 
 - **Article**: [Who Needs an Architect?](https://martinfowler.com/ieeeSoftware/whoNeedsArchitect.pdf) by Martin Fowler
