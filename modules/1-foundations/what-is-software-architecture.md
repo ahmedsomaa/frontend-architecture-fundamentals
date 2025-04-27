@@ -1,74 +1,125 @@
 # What is Software Architecture?
 
-> **Software architecture** is the set of **significant design decisions** about how a system is organized to **promote desired quality attributes** and other important properties.
+> **Software Architecture** is "the set of significant design decisions about how a system is organized to promote desired quality attributes and other properties."
 
-\- Michael Keeling, _Design It!_
+\- (Michael Keeling, _Design It!_)
 
-## How to Think About Architecture
+## Core Concepts
 
-- **Structure of a System**:  
-   Just like a house has an underlying structure (foundation, walls, rooms), software architecture defines the structure on which all software components are built.
-- **Key Early Decisions**:  
-   Architecture includes decisions you _wish you could get right_ early, because they are hard to change later.
-- **Things Hard to Change**:  
-   Anything considered difficult to modify once built is part of the architecture.
-- **The Important Stuff**:  
-   Architecture covers the "important stuff" — the parts that have the biggest impact on the system's success and flexibility.
+### 1. Understanding Architecture Through Analogies
 
-## A Clearer Definition
+#### House Architecture Analogy
 
-Michael Keeling's definition (from _Design It!_) ties it all together:
+- Similar to how a house has a foundation, walls, and rooms
+- Software architecture defines the underlying structure for all components
+- Provides the framework on which all software components are built
 
-- **Set of Decisions**: Architecture is about the _decisions_ made.
-- **Significant**: These decisions are **important** because they impact qualities like performance, scalability, and maintainability.
-- **Organization**: It defines _how_ the system is structured.
-- **Promotes Qualities**: It aims to support desired outcomes like scalability, performance, security, etc.
+#### Video Game Character Analogy
+
+- Helps visualize the four dimensions of architecture
+- Each dimension maps to a character attribute:
+  - Class → Architectural Style
+  - Stats → Characteristics
+  - Background Story → Architectural Decisions
+  - Skills → Logical Components
+
+### 2. Evolution of Architecture Definitions
+
+1. **Initial Definition**
+
+   - Focus on system structure
+   - Similar to physical architecture
+
+2. **Decision-Based Definition**
+
+   - "Decisions you wish you could get right early in a project"
+   - Emphasizes the importance of early architectural decisions
+   - Highlights the difficulty of changing these decisions later
+
+3. **"Important Stuff" Definition**
+
+   - Architecture is about the "important stuff"
+   - Raises questions about what constitutes "important"
+
+4. **Comprehensive Definition** (Michael Keeling)
+   - Combines all previous definitions
+   - Focuses on:
+     - Significant decisions
+     - System organization
+     - Quality attributes
+     - Other properties
 
 ## The Four Dimensions of Architecture
 
-To fully describe a software architecture, we can think in terms of these **four dimensions**:
-
 ### 1. Architectural Style
 
-- Defines the **overall structure and pattern**.
-- Examples:
-  - Micro-services
+- **Definition:** Overall structure and pattern of the system
+- **Examples:**
+  - Microservices
   - Layered architecture
   - Monolithic
-  - Event-driven  
-     _(Like a character's "class" in a video game — warrior, mage, archer.)_
+  - Event-driven
+- **Analogy:** Character's class (e.g., warrior, mage, archer)
 
-### 2. Characteristics
+### 2. Characteristics (Quality Attributes)
 
-- Also called **quality attributes**.
-- Examples:
+- **Definition:** System properties that determine its capabilities
+- **Examples:**
   - Performance
   - Scalability
   - Reliability
-  - Deploy-ability
-  - Agility  
-     _(Like a character's "stats" — strength, speed, dexterity.)_
-
-> You can't maximize all characteristics at once. Trade-offs must be made depending on priorities or architectural style.
+  - Deployability
+  - Agility
+- **Key Point:** Cannot maximize all characteristics simultaneously
+- **Analogy:** Character's stats (strength, speed, dexterity)
 
 ### 3. Architectural Decisions
 
-- **Rules and guidelines** made during design.
-- Examples:
-  - How services communicate (e.g., REST, gRPC)
+- **Definition:** Rules and guidelines for system implementation
+- **Examples:**
+  - Service communication protocols (REST, gRPC)
   - Database choices
-  - Message protocols  
-     _(Like a character's "background story" — the experiences and beliefs that define them.)_
+  - Message protocols
+- **Purpose:** Helps teams navigate implementation complexities
+- **Analogy:** Character's background story
 
 ### 4. Logical Components
 
-- The **actual building blocks** of the system.
-- Examples:
+- **Definition:** Actual building blocks of the system
+- **Examples:**
   - Modules
+  - UI components
   - Classes
   - Functions
-  - UI components  
-     _(Like a character's "skills" — what they can actually do.)_
+  - Design systems
+- **Analogy:** Character's skills and abilities
+
+## Key Takeaways
+
+1. Architecture is fundamentally about **decisions** that are:
+
+   - Significant
+   - Hard to change
+   - Impact system organization
+   - Promote desired qualities
+
+2. Complete architecture description requires all four dimensions:
+
+   - Style sets the overall pattern
+   - Characteristics define system capabilities
+   - Decisions provide implementation guidance
+   - Components are the actual building blocks
+
+3. Trade-offs are inherent in architecture:
+   - Cannot optimize all characteristics simultaneously
+   - Must prioritize based on system requirements
+
+## Questions for Further Study
+
+1. How do architectural decisions differ between frontend and backend systems?
+2. What are the trade-offs between different architectural styles?
+3. How can we effectively document architectural decisions?
+4. What metrics can we use to measure architectural characteristics?
 
 ## References
 
