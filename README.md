@@ -19,6 +19,7 @@ The course covers essential concepts for building robust and scalable frontend a
 
   - [What is Software Architecture?](modules/1-foundations/what-is-software-architecture.md)
   - [What is Frontend Architecture?](modules/1-foundations/what-is-frontend-architecture.md)
+  - [System Design vs Architecture](modules/1-foundations/system-design-vs-architecture.md)
   - [The Frontend Architect Role](modules/1-foundations/frontend-architect-role.md)
 
 - Module 2: Understanding
